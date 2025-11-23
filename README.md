@@ -24,22 +24,17 @@ Automatic installation script for Alpine Linux on Termux (without root).
 
 ## Installation
 
-### Method 1: Direct Installation
-
-```bash
-bash alpine-installer.sh
-```
-
-### Method 2: Pipe Installation (Automatic)
-
-```bash
-wget -O - https://raw.githubusercontent.com/ozbilgic/install-alpine-on-termux/main/alpine-installer.sh | bash
-```
-
-or
+### Method 1: One Command Automatic Installation
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ozbilgic/install-alpine-on-termux/main/alpine-installer.sh | bash
+```
+
+
+### Method 2: Direct Installation
+
+```bash
+bash alpine-installer.sh
 ```
 
 ## Usage

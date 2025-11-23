@@ -24,23 +24,19 @@ Termux için otomatik Alpine Linux kurulum scripti (root gerektirmez).
 
 ## Kurulum
 
-### Yöntem 1: Doğrudan Kurulum
+### Yöntem 1: Tek Komutla Otomatik Kurulum
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ozbilgic/install-alpine-on-termux/main/alpine-installer.sh | bash
+```
+
+
+### Yöntem 2: Doğrudan Kurulum
 
 ```bash
 bash alpine-installer.sh
 ```
 
-### Yöntem 2: Pipe Kurulumu (Otomatik)
-
-```bash
-wget -O - https://raw.githubusercontent.com/ozbilgic/install-alpine-on-termux/main/alpine-installer.sh | bash
-```
-
-veya
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/ozbilgic/install-alpine-on-termux/main/alpine-installer.sh | bash
-```
 
 ## Kullanım
 
